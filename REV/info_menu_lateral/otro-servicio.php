@@ -20,7 +20,7 @@
                     <p class="servicios__features">Instalación y puesta en marcha de instalaciones fotovoltaicas, 
                             aisladas e interconectadas a red.</p>
                 </div>
-                <input type="button" value="Mas informacion" href="add-infoparque.php" class="btn-actions btn-add">
+                <input type="button" value="Mas informacion" class="btn-actions btn-add card_btn">
             </div>
 
             <div class="card-add card-two">
@@ -42,9 +42,9 @@
     </div>
 
     <!-- INCLUDE MODALES A SERVICIOS -->
+    <?php include('./modals/asesoramiento.php'); ?>
     <?php include('./modals/asistencia.php'); ?>
     <?php include('./modals/instalaciones.php'); ?>
-    <?php include('./modals/asesoramiento.php'); ?>
     
     <script src="./js/modals.js"></script>
 
