@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
-    background: #06384C;
+    background-image: url(../imagenes/eolica2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 .container-conta{
     font-family: 'Poppins', sans-serif;
