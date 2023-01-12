@@ -25,7 +25,7 @@
                                 operación y gestión de los activos, estaciones meteorológicas, sustitución de sensores, data loggers,…</p>
 
                                 <div class="boton">
-                                <a href="../info_menu_lateral/servicios.php" class="cta">Servicios</a> <!--BOTON PARA SERVICIOS-->
+                                <a href="../info_menu_lateral/otro-servicio.php" class="cta">Servicios</a> <!--BOTON PARA SERVICIOS-->
                                 </div>
                         </div>
                     </section>
