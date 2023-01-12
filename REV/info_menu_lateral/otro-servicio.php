@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     
-    <?php include ('../includes/headers.php'); ?>
+<?php include ('../includes/headers.php'); ?>
     <link rel="stylesheet" href="otro-servicio.css">
     <link rel="stylesheet" href="../includes/menu.css">
+    <link rel="stylesheet" href="modals.css">
 
 </head>
 <body>
@@ -39,10 +40,12 @@
             </div>
         </div>
     </div>
+
     <!-- INCLUDE MODALES A SERVICIOS -->
+    <?php include('./modals/asesoramiento.php'); ?>
     <?php include('./modals/asistencia.php'); ?>
     <?php include('./modals/instalaciones.php'); ?>
-    <?php include('./modals/asesoramiento.php'); ?>
+    <script src="./js/modals.js"></script>
 
 </body>
 </html>

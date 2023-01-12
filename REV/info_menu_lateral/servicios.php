@@ -5,6 +5,7 @@
     <?php include ('../includes/headers.php'); ?>
     <link rel="stylesheet" href="servicios.css">
     <link rel="stylesheet" href="../includes/menu.css">
+    <link rel="stylesheet" href="modals.css">
 
 </head>
 <body>
@@ -53,11 +54,12 @@
             </div>
     </section>
     <!-- FIN DE CONTENEDOR DE CONTACTO -->
-
+    
     <!-- INCLUDE MODALES A SERVICIOS -->
     <?php include('./modals/asistencia.php'); ?>
     <?php include('./modals/instalaciones.php'); ?>
     <?php include('./modals/asesoramiento.php'); ?>
+    <script src="./js/modals.js"></script>
 
 </body>
 </html>
