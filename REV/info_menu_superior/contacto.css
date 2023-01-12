@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*body{
+    background-image: url(../imagenes/Aes-pese-panama.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}*/
+body{
+    background-color: #06384C;
+}
+
+.container-contact{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGO */
+.logo a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* contacto */
+
+.contacto{
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+}
+
+.contacto__container{
+    display: grid;
+    gap: 2em;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contacto__padding{
+    padding: 0;
+    transition: padding .3s;
+    border: 1px solid #008074;
+    background: #008074;
+    border-radius: 6px;
+}
+
+.contacto__padding--add{
+    padding-bottom: 20px;
+}
+
+.contacto__answer{
+    padding: 0 30px 0;
+    overflow: hidden;
+}
+
+.contacto__title{
+    text-align: left;
+    display: flex;
+    font-size: 20px;
+    padding: 10px 0 10px;
+    cursor: pointer;
+    color: var(--color-title);
+    justify-content: space-between;
+    color: white;
+}
+
+.contacto__arrow{
+    border-radius: 50%;
+    background-color: var(--color-title);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    transition:  transform .3s;
+}
+
+.contacto__arrow--rotate{
+    transform: rotate(180deg);
+}
+
+.contacto__show{
+    text-align: left;
+    height: 0;
+    transition: height .3s;
+    color: white;
+}
+
+.contacto__img{
+    display: block;
+}
+
+.contacto__copy{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+@media (max-width:800px){
+    .contacto__copy{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .contacto__title{
+        font-size: 1rem;
+    }
+}

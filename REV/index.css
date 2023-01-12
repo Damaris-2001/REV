@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    background-image: url(imagenes/Arquitectura8.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/*IMAGEN Y FRASE DE LA EMPRESA AL FRNETE*/
+.logo-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo-empresa{
+    width: 700px;
+}
+.logo-empresa h2{
+    text-align:justify;
+    color: #06384C;
+    font-size: 15px;
+}
+main{
+    padding-top: 10%;
+}
+/*FIN DE IMAGEN Y FRASE DE LA EMPRESA AL FRENTE*/
