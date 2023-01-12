@@ -29,7 +29,7 @@
                                 pueden a que nuestros límites no se estrechen tanto ni tan rápido. Y en las grandes acciones deben estar acordadas y soportadas por 
                                 todos, ciudadanos, empresas grandes y pequeñas. Y creemos firmemente en que nosotros vamos a aportar algo a esta revolución de 
                                 mentalidades, a esta nueva forma de afrontar el mundo.</p>
-                            <p class="testimony__review3">Te invitamos a creer lo mismo. Creemos en que vamos a ser una empresa de referencia en el sector de energías 
+                            <p class="testimony__review">Te invitamos a creer lo mismo. Creemos en que vamos a ser una empresa de referencia en el sector de energías 
                                 renovables de forma local, y que vamos a ayudar en nuestro entorno con soluciones sostenibles, con empleo de calidad y con proyectos 
                                 colaborativos para aquellos que los necesiten. </p>
                         </div>

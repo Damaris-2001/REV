@@ -7,7 +7,10 @@
     height: 100vh;
 }*/
 body{
-    background-color: #06384C;
+    background-image: url(../imagenes/eolica.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .container-contact{
@@ -46,8 +49,8 @@ body{
 .contacto__padding{
     padding: 0;
     transition: padding .3s;
-    border: 1px solid #008074;
-    background: #008074;
+    border: 1px solid #ffff;
+    background: #ffff;
     border-radius: 6px;
 }
 
@@ -68,7 +71,7 @@ body{
     cursor: pointer;
     color: var(--color-title);
     justify-content: space-between;
-    color: white;
+    color: #008074;
 }
 
 .contacto__arrow{
@@ -91,7 +94,7 @@ body{
     text-align: left;
     height: 0;
     transition: height .3s;
-    color: white;
+    color: #008074;
 }
 
 .contacto__img{

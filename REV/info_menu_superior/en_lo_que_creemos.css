@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
-    background-image: url(../imagenes/eolica2.jpeg);
+    background-image: url(../imagenes/eolica.webp);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -64,6 +64,9 @@ body{
     color: white;
     display: inline-block;
     padding: 5px;
+}
+.testimony__review{
+    color: #ffff;
 }
 .testimony__review2{
     color: #008074;
