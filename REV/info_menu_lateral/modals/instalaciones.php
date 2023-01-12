@@ -1,9 +1,4 @@
-<head>
-    <link rel="stylesheet" href="modals.css">
-</head>
-
-
-    <!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
+<!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
     <div class="modal">
         <div class="modal_wrapper">
             <div class="modal_content">

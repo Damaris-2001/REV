@@ -1,6 +1,5 @@
-
-    <!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
-    <div class="modal">
+<!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
+<div class="modal">
         <div class="modal_wrapper">
             <div class="modal_content">
                 <div class="modal_head">

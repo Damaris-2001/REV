@@ -42,9 +42,9 @@
     </div>
 
     <!-- INCLUDE MODALES A SERVICIOS -->
-    <?php include('./modals/asesoramiento.php'); ?>
     <?php include('./modals/asistencia.php'); ?>
     <?php include('./modals/instalaciones.php'); ?>
+    <?php include('./modals/asesoramiento.php'); ?>
     <script src="./js/modals.js"></script>
 
 </body>
