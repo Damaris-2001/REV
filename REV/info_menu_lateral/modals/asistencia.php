@@ -3,7 +3,7 @@
         <div class="modal_wrapper">
             <div class="modal_content">
                 <div class="modal_head">
-                    <h1 class="heading">Asistencia</h1>
+                    <h1 class="heading">ASISTENCIA</h1>
                 </div>
                 <div class="modal_body">
                     <div class="box">
