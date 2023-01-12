@@ -15,7 +15,7 @@
     <div id="tab2" class="tab-slider-body">
         <div class="wrapper-add-info">
             <div class="card-add card-one">
-                <h3>Asesoramiento</h3>
+                <h3>ASESORAMIENTO</h3>
                 <div class="servicios__items">
                     <p class="servicios__features">Instalación y puesta en marcha de instalaciones fotovoltaicas, 
                             aisladas e interconectadas a red.</p>
@@ -24,7 +24,7 @@
             </div>
 
             <div class="card-add card-two">
-                <h3>Asistencia</h3>
+                <h3>ASISTENCIA</h3>
                 <div class="servicios__items">
                     <p class="servicios__features">Asistencia técnica y comercial para la implantación de empresas en el mercado LATAM.</p>
                 </div>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="card-add card-three">
-                <h3>Instalaciones</h3>
+                <h3>INSTALACIONES</h3>
                 <div class="servicios__items">
                     <p class="servicios__features">Servicios de instalación y puesta en marcha de equipamiento en activos de energía renovable.</p>
                 </div>
@@ -45,6 +45,7 @@
     <?php include('./modals/asistencia.php'); ?>
     <?php include('./modals/instalaciones.php'); ?>
     <?php include('./modals/asesoramiento.php'); ?>
+    
     <script src="./js/modals.js"></script>
 
 </body>

@@ -1,16 +1,13 @@
 /*--====== Global Variables ======--*/
 :root {
     --bg-color: #fff;
-    --grad-color-1: #00d2ff;
-    --grad-color-2: #3a47d5;
-    --gradient: linear-gradient(90deg, var(--grad-color-1) 0%, var(--grad-color-2) 100%);
+    color: #06384C;
     --shadow: 0 3px 15px -5px rgba(0, 0, 0, 0.5);
 }
-
 .heading {
     position: relative;
     background-color: #fff;
-    color: #000;
+    color: #06384C;
     mix-blend-mode: multiply;
 }
 
@@ -155,6 +152,7 @@
     overflow: hidden;
     transform: scale(0);
     transition: transform 0.4s ease;
+    line-height: 50px;
 }
 
 /* when Modal is open then modal-content will... */
@@ -186,4 +184,147 @@
     width: 100%;
     height: 43px;
     color: black;
+}
+
+/*OTRA OPCION DE DISEÑO DE MODALS*/
+.wrapper-modal-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper-modal-form > p > input{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border: 0.6px solid #282828;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+  .input-option{
+    margin-bottom: 25px;
+    width: 398px;
+  }
+  
+  .box h2 {
+    margin: 0px 0 -0.125rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  }
+  
+  .box .inputBox input {
+    width: 100%;
+    padding: 0.625rem 10px;
+    font-size: 1rem;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 4px;
+    
+  }
+
+  .box .listacliente{
+	margin-bottom: 1.875rem;
+  }
+  
+  .box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: grey;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+    top: -1.125rem;
+    left: 10px;
+    color: #1a73e8;
+    font-size: 0.75rem;
+    background-color: white;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .box .inputBox input:focus {
+    outline: none;
+    border: 2px solid #1a73e8;
+  }
+  
+
+  
+  .btn-cancel{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+  }
+
+  .add-button{
+    margin-top: 20px;
+    width: 79%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+  }
+
+  .add-button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+  }
+
+  .badge-error {
+    padding: 5px;
+    border: 1px solid #e81a1a;
+    color: #e81a1a;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+
+.badge-success {
+  padding: 5px;
+  border: 1px solid #22e588;
+  color: #22e588;
+  border-radius: 10px;
+  font-size: 13px;
 }
