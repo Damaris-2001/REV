@@ -1,4 +1,4 @@
- <!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
+ <!-- INICIO DE MODAL PARA UNA NUEVA INSTALACION -->
  <div class="modal">
         <div class="modal_wrapper">
             <div class="modal_content">
@@ -37,4 +37,4 @@
             </div>
         </div>
     </div>
-    <!-- FIN DE MODAL PARA UNA NUEVA ASISTENCIA -->
+    <!-- FIN DE MODAL PARA UNA NUEVA INSTALACION -->

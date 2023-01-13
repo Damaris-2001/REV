@@ -1,4 +1,4 @@
- <!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
+ <!-- INICIO DE MODAL PARA UNA NUEVA ASESORAMIENTO -->
  <div class="modal">
         <div class="modal_wrapper">
             <div class="modal_content">
@@ -20,7 +20,7 @@
                             </div>
 
                             <div class="inputBox">
-                                <textarea name="mensaje" id="mensajec" cols="30" rows="10" style="width:100%", height="80px"></textarea>
+                                <textarea name="mensaje" id="mensajec" cols="30" rows="10" style="width:100%", height="80px", border-radius="4px", border-color="#06384C"></textarea>
                                 <label>Mensaje</label>
                             </div>
                             
@@ -37,4 +37,4 @@
             </div>
         </div>
     </div>
-    <!-- FIN DE MODAL PARA UNA NUEVA ASISTENCIA -->
+    <!-- FIN DE MODAL PARA UNA NUEVA ASESORAMIENTO -->
