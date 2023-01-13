@@ -15,12 +15,12 @@
                          </div>
 
                             <div class="inputBox">
-                                <input type="text" name="copy" id="copy" required onkeyup="this.setAttribute('value', this.value);" value="">
+                                <input type="text" name="correo" id="correo" required onkeyup="this.setAttribute('value', this.value);" value="">
                                 <label>Correo</label>
                             </div>
 
                             <div class="inputBox">
-                                <input type="text" name="receiver" id="receiver" required onkeyup="this.setAttribute('value', this.value);" value="">
+                                <input type="text" name="mensaje" id="mensaje" required onkeyup="this.setAttribute('value', this.value);" value="">
                                 <label>Mensaje</label>
                             </div>
                             
