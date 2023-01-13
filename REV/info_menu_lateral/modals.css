@@ -90,6 +90,7 @@
     color: #06384C;
     margin-top: 10px;
     cursor: pointer;
+    background-color: white;
 }
 
 .option-role{
@@ -113,7 +114,16 @@
     background: transparent;
     border-radius: 4px;
   }
-
+  .box .inputBox textarea {
+    width: 100%;
+    padding: 0.625rem 10px;
+    font-size: 1rem;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: 1px solid #06384C;
+    background: transparent;
+    border-radius: 4px;
+  }
   .box .inputBox label {
     position: absolute;
     top: 0;
@@ -161,7 +171,7 @@
     border: none;
     outline: none;
     color: #fff;
-    background-color: #1a73e8;
+    background-color: #06384C;
     padding: 0.625rem 1.25rem;
     cursor: pointer;
     border-radius: 0.312rem;

@@ -8,7 +8,7 @@
                 <div class="modal_body">
                     <div class="box">
                          <div class="listacliente">
-                            <form class="form-container3" method="post" id="form_add_desti">
+                            <form action="enviar.php" method="post" id="">
                                 <div class="client-select-datalist">
 
                                 </div>
@@ -20,7 +20,7 @@
                             </div>
 
                             <div class="inputBox">
-                                <textarea name="mensaje_aseso" id="mensaje_aseso" cols="30" rows="10" style="width:100%", height="80px", border-radius="4px", border-color="#06384C"></textarea>
+                                <textarea name="mensaje_aseso" id="mensaje_aseso" cols="30" rows="10" style="width:100%", height="80px"></textarea>
                                 <label>Mensaje</label>
                             </div>
                             
