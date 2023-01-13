@@ -29,12 +29,10 @@
 
                         <div class="modal_foot">
                             <button type="button" class="close_btn">Cancelar</button>
-                            
-                            <!-- Div en donde se muestra el resultado de la consulta -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- FIN DE MODAL PARA UNA NUEVA INSTALACION -->
+    <!-- FIN DE MODAL PARA UNA NUEVA INSTALACIONES -->
