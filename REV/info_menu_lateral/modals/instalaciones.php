@@ -1,5 +1,5 @@
-<!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
-    <div class="modal">
+ <!-- INICIO DE MODAL PARA UNA NUEVA ASISTENCIA -->
+ <div class="modal">
         <div class="modal_wrapper">
             <div class="modal_content">
                 <div class="modal_head">
@@ -15,23 +15,13 @@
                          </div>
 
                             <div class="inputBox">
-                                <input type="text" name="copy" id="copy" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Copia</label>
+                                <input type="text" name="correo" id="correo" required onkeyup="this.setAttribute('value', this.value);" value="">
+                                <label>Correo</label>
                             </div>
 
                             <div class="inputBox">
-                                <input type="text" name="receiver" id="receiver" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Para</label>
-                            </div>
-
-                            <div class="inputBox">
-                                <input type="text" name="park" id="park" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Parque</label>
-                            </div>
-                            
-                            <div class="inputBox">
-                                <input type="text" name="priority" id="priority" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Prioridad</label>
+                                <textarea name="mensaje" id="mensajec" cols="30" rows="10" style="width:100%", height="80px"></textarea>
+                                <label>Mensaje</label>
                             </div>
                             
                             <input class="add-button" id="btn_add_desti" type="submit" value="Enviar" disabled>
