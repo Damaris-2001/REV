@@ -20,7 +20,7 @@
                             </div>
 
                             <div class="inputBox">
-                                <input type="text" name="mensaje" id="mensaje" required onkeyup="this.setAttribute('value', this.value);" value="">
+                                <textarea name="mensaje" id="mensajec" cols="30" rows="10" style="width:100%", height="80px"></textarea>
                                 <label>Mensaje</label>
                             </div>
                             
