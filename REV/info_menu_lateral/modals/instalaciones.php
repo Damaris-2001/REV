@@ -15,12 +15,12 @@
                          </div>
 
                             <div class="inputBox">
-                                <input type="text" name="correo-insta" id="correo-insta" required onkeyup="this.setAttribute('value', this.value);" value="">
+                                <input type="text" name="correo_insta" id="correo_insta" required onkeyup="this.setAttribute('value', this.value);" value="">
                                 <label>Correo</label>
                             </div>
 
                             <div class="inputBox">
-                                <textarea name="mensaje-insta" id="mensaje-insta" cols="30" rows="10" style="width:100%", height="80px"></textarea>
+                                <textarea name="mensaje_insta" id="mensaje_insta" cols="30" rows="10" style="width:100%", height="80px"></textarea>
                                 <label>Mensaje</label>
                             </div>
                             
@@ -38,48 +38,13 @@
     <!-- FIN DE MODAL PARA UNA NUEVA INSTALACIONES -->
 
 <script>
-// Bloquear boton de añadir hasta que se ingrese los campos
+// BLOQUEAR BOTON DE ENVIO HASTA QUE SE INGRESE LOS CAMPOS
     $('#btn_add_insta').attr('disabled', true);
-    $('#btn_add_insta').keyup(function() {
+    $('#mensaje_insta').keyup(function() {
         if ($(this).val().length != 0) {
             $('#btn_add_insta').attr('disabled', false);
         } else {
             $('#btn_add_insta').attr('disabled', true);
         }
     })
-
-    // Agrega la url de soporte a la base de datos
-    $('#btn_add_insta').click(function() {
-        let form_add_desti = $('#form_add_desti').serialize();
-        $.ajax({
-            type: "POST",
-            url: "new.php?case=1",
-            data: form_add_desti,
-            dataType: "html",
-            error: function() {
-                swal("Error", "Error en la peticion", "error");
-                
-            },
-            success: function(data) {
-                let datos = data.replace(/<[^>]*>?/gm, '');
-                if (datos.includes("correcto")){
-                    swal("Success", "Datos guardados correcramente", "success");
-                    $('#select-box').val(0);
-                    $('#copy').val("");
-                    $('#receiver').val("");
-                    $('#park').val("");
-                    $('#priority').val("");
-                    $('#btn_add_insta').attr('disabled', true);
-                }else if (datos.includes("insert fail")){
-                    swal("Info", "Llenar los campos correctamente", "info");
-                    
-                }
-                else{
-                    swal("Info", "Llenar los campos correctamente", "info");
-
-                }
-            }
-        });
-        return false;
-    });
 </script>
