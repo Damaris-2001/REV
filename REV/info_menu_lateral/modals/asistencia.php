@@ -16,22 +16,12 @@
 
                             <div class="inputBox">
                                 <input type="text" name="copy" id="copy" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Copia</label>
+                                <label>Correo</label>
                             </div>
 
                             <div class="inputBox">
                                 <input type="text" name="receiver" id="receiver" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Para</label>
-                            </div>
-
-                            <div class="inputBox">
-                                <input type="text" name="park" id="park" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Parque</label>
-                            </div>
-                            
-                            <div class="inputBox">
-                                <input type="text" name="priority" id="priority" required onkeyup="this.setAttribute('value', this.value);" value="">
-                                <label>Prioridad</label>
+                                <label>Mensaje</label>
                             </div>
                             
                             <input class="add-button" id="btn_add_desti" type="submit" value="Enviar" disabled>
