@@ -42,6 +42,7 @@
     $('#btn_add_aseso').attr('disabled', true);
     $('#mensaje_aseso').keyup(function() {
         if ($(this).val().length != 0) {
+            console.log(1)
             $('#btn_add_aseso').attr('disabled', false);
         } else {
             $('#btn_add_aseso').attr('disabled', true);
