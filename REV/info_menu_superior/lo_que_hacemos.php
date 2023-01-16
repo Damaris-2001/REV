@@ -26,7 +26,7 @@
 
                                 <div class="boton">
                                 <a href="../info_menu_lateral/otro-servicio.php" class="cta">Servicios</a> <!--BOTON PARA SERVICIOS-->
-                                <a href="../info_menu_lateral/galeria_revolutio.php" class="cta">Galeria</a> <!--BOTON PARA SERVICIOS-->
+                                <a href="../info_menu_lateral/galeria_revolutio.php" class="cta">Galeria</a> <!--BOTON PARA GALERIA-->
                                 </div>
                         </div>
                     </section>
