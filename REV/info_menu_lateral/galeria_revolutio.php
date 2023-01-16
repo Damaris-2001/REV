@@ -11,36 +11,32 @@
 
     <?php include ('../includes/menu.php'); ?>
 
-    <!-- INICIO DE CONTENEDOR DE MENU-GALERIA -->
-    <section class="galeriarev container">
-            <div class="galeriarev__table">
-                <div class="galeriarev__element">
-                    <h3 class="galeriarev__galeriarev">Asistencias Técnicas</h3>
+	<section class="testimony">
+            <div class="testimony__container container">
+                <img src="../iconos/arrow ios back_.svg" class="testimony__arrow" id="before">
 
-                    <a href="#" class="galeriarev__cta">Ver galeria</a>
-                </div>
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <figure class="testimony__picture">
+                        <img src="../imagenes/Arquitectura6.jpg" class="testimony__img">
+                    </figure>
+                </section>
 
+                <section class="testimony__body" data-id="2">
+                    <figure class="testimony__picture">
+                        <img src="../imagenes/Img_index_gris.jpg" class="testimony__img">
+                    </figure>
+                </section>
 
-                <div class="galeriarev__element">
-                    <h3 class="galeriarev__galeriarev">Servicios de Instalaciones</h3>
+                <section class="testimony__body" data-id="3">
 
-                    <a href="#" class="galeriarev__cta">Ver galeria</a>
-                </div>
+                    <figure class="testimony__picture">
+                        <img src="../imagenes/Textura_metalica.JPG" class="testimony__img">
+                    </figure>
+                </section>
 
-
-                <div class="galeriarev__element">
-                    <h3 class="galeriarev__galeriarev">Asesoramientos</h3>
-
-                    <a href="#" class="galeriarev__cta">Ver galeria</a>
-                </div>
-
-                <div class="galeriarev__element">
-                    <h3 class="galeriarev__galeriarev">Trabajos</h3>
-
-                    <a href="#" class="galeriarev__cta">Ver galeria</a>
-                </div>
+                <img src="../iconos/arrow ios forward_.svg" class="testimony__arrow" id="next">
             </div>
-    </section>
-    <!-- FIN DE CONTENEDOR DE MENU-GALERIA -->
+        </section>
+
+        <script src="../js/slider.js"></script>
 </body>
-</html>

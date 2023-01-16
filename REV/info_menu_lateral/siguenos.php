@@ -17,54 +17,41 @@
 
                 <section class="testimony__body testimony__body--show" data-id="1">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante de CSS.</span></h2>
+                        <h2 class="subtitle">Siguenos por <span class="testimony__course">FACEBOOK.</span></h2>
                         <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
                             esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
                             blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/face.jpg" class="testimony__img">
+                        <img src="../imagenes/facebook fill_.png" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="2">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">estudiante de CSS.</span></h2>
+                        <h2 class="subtitle">Buscanos en <span class="testimony__course">LINKEDLN.</span></h2>
                         <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
                             esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
                             voluptatum!</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/face2.jpg" class="testimony__img">
+                        <img src="../imagenes/linkedIn fill_.png" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="3">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de CSS.</span></h2>
+                        <h2 class="subtitle">Miranos por <span class="testimony__course">INSTAGRAM.</span></h2>
                         <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
                             esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/face3.jpg" class="testimony__img">
+                        <img src="../imagenes/icon _instagram fill_.png" class="testimony__img">
                     </figure>
                 </section>
-
-                <section class="testimony__body" data-id="4">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face4.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
 
                 <img src="../iconos/arrow ios forward_.svg" class="testimony__arrow" id="next">
             </div>
