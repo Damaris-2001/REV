@@ -24,7 +24,7 @@
         <div class="siguenos-content">
             <section class="testimony_body testimony_body--show" data-id="1">
                 <div class="testimony__texts">
-                    <h2 class="subtitle"><span class="testimony__course">¿QUE HACEMOS?</span></h2>
+                    <h2 class="subtitle" style="color:white">¿QUE HACEMOS?</h2>
                     <span class="testimonio" style="color:white">
                         Hemos colaborado en numerosos proyectos de energías renovables. Desde instalaciones de
                         generación, asistencias técnicas para la implantación de scadas, montaje de infraestructura

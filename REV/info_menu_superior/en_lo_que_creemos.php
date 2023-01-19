@@ -24,7 +24,7 @@
         <div class="siguenos-content">
             <section class="testimony_body testimony_body--show" data-id="1">
                 <div class="testimony__texts">
-                    <h2 class="subtitle"><span class="testimony__course">CREEMOS</span></h2>
+                    <h2 class="subtitle" style="color:white">CREEMOS</h2>
                     <span class="testimonio" style="color:white">
                         En que nuestra caja se hace cada vez más pequeña: el cielo puede cambiar de color, los ríos
                         perder su caudal, y la calidad de su agua, agotamos los bosques, terminamos las selvas, …
