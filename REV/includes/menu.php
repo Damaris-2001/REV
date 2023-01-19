@@ -39,6 +39,7 @@
 			    <a href="../info_menu_lateral/otro-servicio.php">Servicios</a>
 			    <a href="../info_menu_lateral/galeria_revolutio.php">Galería Revolutio</a>
 			    <a href="../info_menu_lateral/siguenos.php">Siguenos</a>
+				<a href="../info_menu_lateral/info_grupo.php">Equipo Revolutio</a>
 		    </nav>
             <label for="btn-menu">
 				<img src="../iconos/close outline_.svg" alt="Close">
