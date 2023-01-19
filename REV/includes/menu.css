@@ -21,8 +21,11 @@
     margin: auto;
 }
 .container .btn-menu, .logo{
-    float: left;
+    
     line-height:0;
+}
+.logo-btn{
+    width: 35%;
 }
 
 /*Logo imagen*/
@@ -38,7 +41,10 @@
 }
 
 .container .menu{
-    float: right;
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     line-height: 100px;
 }
 .container .menu a{
@@ -46,7 +52,7 @@
     padding: 15px;
     line-height: normal;
     text-decoration: none;
-    color: #fff;
+    color: #057F73;
     transition: all 0.3s ease;
     border-bottom: 2px solid transparent;
     font-size: 15px;
@@ -56,6 +62,10 @@
     border-bottom: 2px solid #06384C;
     padding-bottom: 5px;
     color: #06384C;
+}
+.menu-display{
+    display: flex;
+    justify-content: flex-end;
 }
 /*Fin de Estilos para el encabezado*/
 

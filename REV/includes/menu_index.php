@@ -3,7 +3,7 @@
     <!--INICIO DE MENU-->
     <!--menu superior-->
     <header class="header">
-		<div class="container">
+		<div class="container menu-display">
 		<div class="btn-menu">
 			<label for="btn-menu">
 				<img src="./iconos/menu.svg" alt="Menu">

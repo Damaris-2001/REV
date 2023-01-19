@@ -9,8 +9,18 @@
 body{
     background-image: url(imagenes/Img_index_gris.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+}
+.back{
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 101%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.535);
 }
 
 /*IMAGEN Y FRASE DE LA EMPRESA AL FRNETE*/
@@ -29,5 +39,27 @@ body{
 }
 main{
     padding-top: 10%;
+}
+.menu a{
+    color:#ffffff!important
+}
+@media screen and (max-width:321px ) {
+    
+    .siguenos-content{
+    width: 100%;
+    padding-right: 55px;
+    color: #06384C;
+    
+    }
+    .menu{
+        display: none!important;
+    }
+    body{
+        height: 100%;
+    }
+    .menu-display{
+        justify-content: space-between!important;
+    }
+    
 }
 /*FIN DE IMAGEN Y FRASE DE LA EMPRESA AL FRENTE*/
