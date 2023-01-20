@@ -45,7 +45,7 @@
         </div>
 
         <div class="description">
-            <h3>EQUIPO DE NUEVAS INSTALACIONES</h3>
+            <h3>EQUIPO DE INSTALACIONES</h3>
             <h4>System Engineer</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
         </div>
