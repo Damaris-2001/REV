@@ -28,7 +28,6 @@
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
-    transition: .5s;
     background: #008074;
 }
 
