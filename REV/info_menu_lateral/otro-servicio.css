@@ -388,3 +388,38 @@ h2 {
 }
     
 }
+@media screen and (max-width:769px) {
+    .wrapper-add-info {
+        display: flex;
+        display: flex;
+        grid-template-columns: auto auto auto;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding: 10%;
+        flex-direction: column;
+    }
+
+    .modal_content {
+    display: flex;
+    justify-items: center;
+    position: relative;
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+    width: 100vw;
+    max-width: 576px;
+    padding: 4rem;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform 0.4s ease;
+    line-height: 50px;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+}

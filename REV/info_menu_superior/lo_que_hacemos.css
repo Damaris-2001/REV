@@ -20,8 +20,9 @@ body{
 }
 .contenedor-display{
     display: flex;
+    
     justify-content: space-between;
-    width: 100%;
+    align-items: center;
 }
 .containeres{
     width: 100vw;
