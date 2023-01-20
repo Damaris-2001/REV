@@ -16,7 +16,7 @@
     <div class="cont_desarrollo">
     <div class="card">
         <div class="face front">
-            <img src="img1.jpeg" alt="">
+            <img src="../imagenes/Index.jpg" alt="">
             <h3>Ingeniero</h3>
         </div>
         <div class="face back">
