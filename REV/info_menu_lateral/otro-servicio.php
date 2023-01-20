@@ -20,8 +20,7 @@
             <div class="card-add card-one">
                 <h3>ASESORAMIENTO</h3>
                 <div class="servicios__items">
-                    <p class="servicios__features">Instalación y puesta en marcha de instalaciones fotovoltaicas,
-                        aisladas e interconectadas a red.</p>
+                    <p class="servicios__features">Instalación y puesta en marcha de instalaciones fotovoltaicas, aisladas e interconectadas a red.</p>
                 </div>
                 <input type="button" value="Mas informacion" class="btn-actions btn-add card_btn">
             </div>
