@@ -37,7 +37,7 @@ div{
     overflow: hidden;
 }
 .card1:hover,.card2:hover,.card3:hover,.card4:hover, 
-.card5:hover{
+.card5:hover, .card6:hover, .card7:hover, .card8:hover{
     flex-grow: 3;
 }
 h1{
@@ -56,7 +56,7 @@ h1{
     transition-delay: 0.2s;
 }
 .card1:hover h1,.card2:hover h1,.card3:hover h1,
-.card4:hover h1,.card5:hover h1{
+.card4:hover h1,.card5:hover h1, .card6:hover h1, .card7:hover h1, .card8:hover h1{
     opacity: 1;
 }
 
@@ -65,3 +65,6 @@ h1{
 .card3{ background-image: url(../imagenes/Textura_metalica.JPG);}
 .card4{ background-image: url(../imagenes/Index.jpg);}
 .card5{ background-image: url(../imagenes/Textura_metalicaaa.jpg);}
+.card6{ background-image: url(../imagenes/Nombre-de-empresa.png);}
+.card7{ background-image: url(../imagenes/logo_horizontal_azul2x.png);}
+.card8{ background-image: url(../imagenes/);}
