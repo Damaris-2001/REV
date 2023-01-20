@@ -32,7 +32,7 @@
         </div>
 
         <div class="contact">
-            <a href="#">Mas informacion</a>
+            <a href="../info_menu_lateral/info_grupos/gerencia.php">Mas informacion</a>
         </div>
     </div>
 
@@ -73,8 +73,28 @@
             <a href="../info_menu_lateral/info_grupos/grupo_soporte.php">Mas informacion</a>
         </div>
     </div>
-    </div>
 
+    <div class="card">
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img">
+                <img src="../imagenes/leaf_.png" alt="">
+            </div>
+        </div>
+
+        <div class="description">
+            <h3>EQUIPO DE DESARROLLO</h3>
+            <h4>System Engineer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</p>
+        </div>
+
+        <div class="contact">
+            <a href="../info_menu_lateral/info_grupos/grupo_desarrollo.php">Mas informacion</a>
+        </div>
+    </div>
+    </div>
+    
+    </div>
     
 </body>
 </html>

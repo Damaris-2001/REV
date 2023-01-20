@@ -3,7 +3,7 @@
 <head>
 
     <?php include ('../includes/headers.php'); ?>
-    <link rel="stylesheet" href="grupo_instalacion.css">
+    <link rel="stylesheet" href="grupo_desarrollo.css">
     <link rel="stylesheet" href="../includes/menu.css">
 
 </head>
