@@ -11,32 +11,28 @@
 
     <?php include ('../includes/menu.php'); ?>
 
-	<section class="testimony">
-            <div class="testimony__container container">
-                <img src="../iconos/arrow ios back_.svg" class="testimony__arrow" id="before">
+    <div class="cont_gal">
+	<section class="cards">
+        <div class="card1">
+            <h1>Aero</h1>
+        </div>
 
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <figure class="testimony__picture">
-                        <img src="../imagenes/Arquitectura6.jpg" class="testimony__img">
-                    </figure>
-                </section>
+        <div class="card2">
+            <h1>Img_Index</h1>
+        </div>
 
-                <section class="testimony__body" data-id="2">
-                    <figure class="testimony__picture">
-                        <img src="../imagenes/Img_index_gris.jpg" class="testimony__img">
-                    </figure>
-                </section>
+        <div class="card3">
+            <h1>Textura metalica</h1>
+        </div>
 
-                <section class="testimony__body" data-id="3">
+        <div class="card4">
+            <h1>Index</h1>
+        </div>
 
-                    <figure class="testimony__picture">
-                        <img src="../imagenes/Textura_metalica.JPG" class="testimony__img">
-                    </figure>
-                </section>
+        <div class="card5">
+            <h1>Textura metalicaaa</h1>
+        </div>
 
-                <img src="../iconos/arrow ios forward_.svg" class="testimony__arrow" id="next">
-            </div>
-        </section>
-
-        <script src="../js/slider.js"></script>
+    </section>
+    </div>
 </body>
