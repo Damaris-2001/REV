@@ -8,8 +8,12 @@
 
 </head>
 <body>
+    <div class="back">
+        </div>
 
-    <?php include ('../includes/menu.php'); ?>
+    <div class="menu-bar">
+        <?php include ('../includes/menu.php'); ?>
+    </div>
 
     <div class="cont_gal">
 	<section class="cards">

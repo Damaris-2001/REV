@@ -52,7 +52,7 @@
     padding: 15px;
     line-height: normal;
     text-decoration: none;
-    color: #057F73;
+    color:white;
     transition: all 0.3s ease;
     border-bottom: 2px solid transparent;
     font-size: 15px;
@@ -61,7 +61,7 @@
 .container .menu a:hover{
     border-bottom: 2px solid #06384C;
     padding-bottom: 5px;
-    color: #06384C;
+    color:white;
 }
 .menu-display{
     display: flex;

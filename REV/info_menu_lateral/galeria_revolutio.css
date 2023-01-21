@@ -12,6 +12,15 @@ body{
     height: 100vh;
 
 }
+.back{
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 101%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.492);
+}
 .cont_gal{
     width: 100vw;
     height: 100vh;
