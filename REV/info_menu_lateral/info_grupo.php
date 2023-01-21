@@ -51,7 +51,7 @@
         </div>
 
         <div class="contact">
-            <a href="../info_grupos/grupo_instalaciones.php">Mas informacion</a>
+            <a href="../info_grupos/grupo_instalacion.php">Mas informacion</a>
         </div>
     </div>
 

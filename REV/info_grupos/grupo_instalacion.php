@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" href="grupo_instalaciones.css">
+    <link rel="stylesheet" href="grupo_instalacion.css">
     <?php include ('../includes/headers.php'); ?>
     <link rel="stylesheet" href="../includes/menu.css">
 
