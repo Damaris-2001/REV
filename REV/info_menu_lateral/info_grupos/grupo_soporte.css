@@ -7,7 +7,14 @@
     font-family: sans-serif;
 }
 
-.cont_desarrollo {
+body{
+    background-image: url(../imagenes/Textura_metalica.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container_soporte {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -18,9 +25,10 @@
 
 .card {
     position: relative;
-    width: 800px;
-    height: 400px;
+    width: 700px;
+    height: 350px;
     margin: 20px;
+    border-radius: 60px;
 }
 
 .card .face {
@@ -30,7 +38,7 @@
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
-    background: #008074;
+    transition: .5s;
 }
 
 .card .front {
@@ -58,7 +66,7 @@
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: #06384C;
+    background: #008074;
     padding: 15px;
     color: #f3f3f3;
     display: flex;

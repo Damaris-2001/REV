@@ -32,7 +32,7 @@
         </div>
 
         <div class="contact">
-            <a href="../info_menu_lateral/info_grupos/gerencia.php">Mas informacion</a>
+            <a href="../info_grupos/gerencia.php">Mas informacion</a>
         </div>
     </div>
 
@@ -51,7 +51,7 @@
         </div>
 
         <div class="contact">
-            <a href="../info_menu_lateral/info_grupos/grupo_instalacion.php">Mas informacion</a>
+            <a href="../info_grupos/grupo_instalaciones.php">Mas informacion</a>
         </div>
     </div>
 
@@ -70,7 +70,7 @@
         </div>
 
         <div class="contact">
-            <a href="../info_menu_lateral/info_grupos/grupo_soporte.php">Mas informacion</a>
+            <a href="../info_grupos/grupo_soporte.php">Mas informacion</a>
         </div>
     </div>
 

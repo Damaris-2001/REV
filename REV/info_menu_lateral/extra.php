@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" href="grupo_desarrollo.css">
+    <link rel="stylesheet" href="extra.css">
     <?php include ('../includes/headers.php'); ?>
     <link rel="stylesheet" href="../includes/menu.css">
 
@@ -16,7 +16,7 @@
     <div class="card">
         <div class="face front">
             <img src="../imagenes/Index.jpg" alt="">
-            <h3>EQUIPO DE DESARROLLO</h3>
+            <h3>EQUIPO DE SOPORTE</h3>
         </div>
         <div class="face back">
             <h3>SOBRE NOSOTROS</h3>
