@@ -89,7 +89,7 @@
         </div>
 
         <div class="contact">
-            <a href="../info_menu_lateral/info_grupos/grupo_desarrollo.php">Mas informacion</a>
+            <a href="../info_grupos/grupo_desarrollo.php">Mas informacion</a>
         </div>
     </div>
     </div>
