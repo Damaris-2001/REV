@@ -45,10 +45,6 @@
             <h1>Logo empresa2</h1>
         </div>
 
-        <div class="card8">
-            <h1>Textura metalicaaa</h1>
-        </div>
-
     </section>
     </div>
 </body>
