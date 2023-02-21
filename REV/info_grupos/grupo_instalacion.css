@@ -94,6 +94,7 @@ body{
 
 .card .back p {
     letter-spacing: 1px;
+    text-align: justify;
 } 
 
 .card:hover .front {

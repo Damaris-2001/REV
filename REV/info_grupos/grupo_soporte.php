@@ -22,7 +22,7 @@
             <h3>SOBRE NOSOTROS</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
             <div class="link">
-                <a href="#">Mas informacion</a>
+                <a href="../info_menu_lateral/info_grupo.php">Mas informacion</a>
             </div>
         </div>
     </div>
