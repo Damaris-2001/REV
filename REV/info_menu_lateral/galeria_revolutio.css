@@ -21,7 +21,26 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.492);
 }
+
+.contenedor-display{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-display{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-bar{
+    
+    height: 90px;
+}
+
 .cont_gal{
+    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -29,6 +48,7 @@ body{
     align-items: center;
 }
 .cards{
+   
     display: flex;
     width: 80vw;
     height: 100vh;
@@ -36,6 +56,7 @@ body{
     align-items: center;
 }
 .card1, .card2, .card3, .card4, .card5, .card6, .card7{
+    
     background-size: cover;
     flex: 0.4;
     height: 80vh;

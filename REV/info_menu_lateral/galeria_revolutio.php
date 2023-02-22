@@ -8,43 +8,51 @@
 
 </head>
 <body>
-    <div class="back">
-        </div>
 
-    <div class="menu-bar">
+     <div class="back">
+
+
+     </div>
+
+
+
+     <div class="menu-bar">
         <?php include ('../includes/menu.php'); ?>
-    </div>
+     </div>
 
-    <div class="cont_gal">
-	<section class="cards">
-        <div class="card1">
+     <div class="container contenedor-display">
+      <div class="cont_gal">
+	   <section class="cards">
+         <div class="card1">
             <h1>Aero</h1>
-        </div>
+         </div>
 
-        <div class="card2">
+         <div class="card2">
             <h1>Img_Index</h1>
-        </div>
+         </div>
 
-        <div class="card3">
+         <div class="card3">
             <h1>Textura metalica</h1>
-        </div>
+         </div>
 
-        <div class="card4">
+         <div class="card4">
             <h1>Index</h1>
-        </div>
+         </div>
 
-        <div class="card5">
+         <div class="card5">
             <h1>Textura metalicaaa</h1>
-        </div>
+         </div>
 
-        <div class="card6">
+         <div class="card6">
             <h1>Logo empresa</h1>
-        </div>
+         </div>
 
-        <div class="card7">
+         <div class="card7">
             <h1>Logo empresa2</h1>
-        </div>
+         </div>
 
-    </section>
-    </div>
+       </section>
+      </div>
+     </div>
+
 </body>
